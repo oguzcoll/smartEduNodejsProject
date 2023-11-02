@@ -12,9 +12,9 @@ const CourseSchema = new Schema({
     unique: true,
     trim: true,
   },
-  name: {
+  createdAt: {
     type: Date,
-    default: Date.now,
+    default: Date.now(),
   },
 });
 
